@@ -12,12 +12,10 @@ body{
 
 #header{
 	text-align: center;
-	padding-top: 250px;
+	padding-top: 50px;
 	background-image: url(../images./header_background.jpg);
-	height: 430px;
 	width: auto;
 	margin: auto;
-	margin-bottom: 250px;
 }
 
 #header > h1{
@@ -26,33 +24,20 @@ body{
 	border: white solid 5px;
 	border-left: 0;
 	border-right: 0;
-	font-size: 100px;
+	font-size: 50px;
 	letter-spacing: 5px;
 	color: white;
 }
 
 ul#navigation{
-	background-color: rgba(255, 255, 255, 0.2);
-	left: 0;
-	top: 0;
-	padding-right: 210px;
-	position: fixed;
-	width: 83%;
+	padding: 0;
 	margin: auto;
-	-webkit-transition: 0.4s;
-	-moz-transition: 0.4s;
-	-o-transition: 0.4s;
-	transition: 0.4s;
-}
-
-ul#navigation:hover{
-	background-color: rgba(255, 255, 255, 0.4);
 }
 
 ul#navigation > li{
 	margin-top: 10px;
 	margin-left: 15px;
-	float: right;
+	clear: right;
 	color: white;
 	list-style: none;
 	font-size: 18px;
@@ -60,12 +45,11 @@ ul#navigation > li{
 
 ul#navigation > li > a{
 	border-bottom: 3px solid rgba(0, 0, 0, 0);
-	margin-top: -10px;
 	padding: 10px 10px 5px 10px;
+	display: inline-block;
 	float: right;
 	color: white;
 	text-decoration: none;
-	display: inline-block;
 	-webkit-transition: 0.4s;
 	-moz-transition: 0.4s;
 	-o-transition: 0.4s;
