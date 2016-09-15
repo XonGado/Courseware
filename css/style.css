@@ -1,0 +1,77 @@
+body{
+	background-color: #263238;
+	font-family: "Gotham light";
+	margin: 0;
+}
+
+#wrapper{
+	background-color: #212121;
+	width: 1000px;
+	margin: auto;
+}
+
+#header{
+	text-align: center;
+	padding-top: 250px;
+	background-image: url(../images./header_background.jpg);
+	height: 500px;
+	width: auto;
+	margin: auto;
+	margin-bottom: 250px;
+}
+
+#header > h1{
+	width: 850px;
+	border: white solid 5px;
+	border-left: 0;
+	border-right: 0;
+	text-align: center;
+	font-size: 100px;
+	letter-spacing: 5px;
+	color: white;
+}
+
+ul#navigation{
+	left: 0;
+	top: 0;
+	padding-right: 210px;
+	position: fixed;
+	width: 83%;
+	margin: auto;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+ul#navigation:hover{
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul#navigation > li{
+	margin-top: 10px;
+	margin-left: 15px;
+	float: right;
+	color: white;
+	list-style: none;
+	font-size: 18px;
+}
+
+ul#navigation > li > a{
+	border-bottom: 3px solid rgba(0, 0, 0, 0);
+	margin-top: -10px;
+	padding: 10px 10px 5px 10px;
+	float: right;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	-webkit-transition: 0.4s;
+	-moz-transition: 0.4s;
+	-o-transition: 0.4s;
+	transition: 0.4s;
+}
+
+ul#navigation > li > a:hover{
+	border-bottom: 3px solid white;
+	background-color: rgba(255, 255, 255, 0.3);
+}
