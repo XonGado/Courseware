@@ -68,7 +68,7 @@ ul#navigation > li > a:hover{
 div#classes_bar{
 	height: 27px;
 	width: 100%;
-	background-color: #333;
+	background-color: #111;
 	padding: 5px;
 }
 
@@ -118,35 +118,41 @@ div#classes_bar > p{
 #announcements > h2{
 	/*background-image: url(../images/header_background.jpg);*/
 	margin: 0;
-	background: -webkit-linear-gradient(left, #DEB887, #FFDEAD);
-	border-radius: 5px;
+	background: -webkit-linear-gradient(left, #009688, rgba(0, 0, 0, 0));
 	color: white;
 	padding: 10px 0 10px 15px;
 }
 
 #announcements > ul{
+	color: white;
 	padding: 0;
 	list-style: none;
 }
 
 #announcements > ul > li{
-	background-color: #333;
-	padding: 5px;
+	background-color: #E0F2F1;
+	border: #26C6DA solid 3px;
+	border-radius: 3px;
+	border-width: 0 0 0 3px;
 	margin-bottom: 10px;
 	margin-right: 10px;
 	width: 300px;
-	float: left;
 }
 
 #announcements > ul > li > dl > dt{
-	background-color: #444;
+	font-family: 'Gotham';
+	padding: 5px;
+	background: -webkit-linear-gradient(left, #26C6DA, rgba(0, 0, 0, 0));
 }
 
 #announcements > ul > li > dl > dd{
-	background-color: #555;
+	/*background-color: #555;*/
+	padding: 5px;
+	color: #333;
 }
 
 #footer{
+	text-align: center;
 	background-color: #111;
 	clear: left;
 	padding: 15px;
