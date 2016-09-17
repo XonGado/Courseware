@@ -145,6 +145,15 @@ div#wrapper > #header > h1{
 	border-color: #FFF59D;
 }
 
+#footer{
+	padding: 10px;
+	box-sizing: border-box;
+	border: #607D8B solid 4px;
+	color: #FF9800;
+	text-align: center;
+	border-width: 4px 0 0 0;
+}
+
 @keyframes float{
     100%{
     	-webkit-transform: translate(0, 2px);
