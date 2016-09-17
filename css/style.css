@@ -143,6 +143,11 @@ div#wrapper > #header > h1{
 
 #classes_bar > ul > li > a:hover{
 	border-color: #FFF59D;
+	color: #03A9F4;
+}
+
+div#content{
+	display: inline-flex;
 }
 
 #footer{
