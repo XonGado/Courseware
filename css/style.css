@@ -143,6 +143,20 @@ div#wrapper > #header > h1{
 
 #classes_bar > ul > li > a:hover{
 	border-color: #FFF59D;
+	color: #03A9F4;
+}
+
+div#content{
+	display: inline-flex;
+}
+
+#footer{
+	padding: 10px;
+	box-sizing: border-box;
+	border: #607D8B solid 4px;
+	color: #FF9800;
+	text-align: center;
+	border-width: 4px 0 0 0;
 }
 
 @keyframes float{
