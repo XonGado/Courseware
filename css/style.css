@@ -1,9 +1,15 @@
+html{
+	height: 100%;
+}
 *::selection{
 	color: white;
 	background: #B2EBF2;
 }
 
 body{
+	padding-bottom: 6rem;
+	position: relative;
+	min-height: 100%;
 	font-family: 'Gotham Light';
 	background-color: #263238;
 	margin: 0;
